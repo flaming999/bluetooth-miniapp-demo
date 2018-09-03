@@ -1,0 +1,7 @@
+<!--pages/bluetooth/bluetooth.wxml-->
+<wxs src="state.wxs" module="state" />
+<view>{{state.stateMsg(connectState)}}</view>
+<view hidden='{{connectState !== 5}}'>监听到按钮点击：{{clickNum}}</view>
+
+<button type='primary' class='com-btn' hidden='{{connectState !== 2}}' catchtap='getDevices'>获取设备</button>
+<button type='primary' class='com-btn' hidden='{{connectState !== 4}}' catchtap='connectDevices'>连接设备</button>

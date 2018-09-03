@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<web-view wx:if="{{canIUse}}" src="https://xgk.test.com/"></web-view>
+<view wx:else class='t-center'>当前微信版本太低，请升级微信。</view>

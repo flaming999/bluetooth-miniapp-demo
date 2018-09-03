@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/bluetooth/bluetooth"
+  ],
+  "window": {
+    "backgroundColor": "#f7f7f7",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Bluetooth connect demo",
+    "navigationBarTextStyle": "black"
+  }
+}

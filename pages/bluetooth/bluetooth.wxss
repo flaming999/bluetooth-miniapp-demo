@@ -1,0 +1,5 @@
+/* pages/bluetooth/bluetooth.wxss */
+.com-btn {
+  width: 80%;
+  margin-top: 20rpx;
+}

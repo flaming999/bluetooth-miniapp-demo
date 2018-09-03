@@ -1,0 +1,21 @@
+var stateMsg = function(state) {
+  switch (state) {
+    case 0:
+      return '设备未连接';
+    case 1:
+      return '正在获取设备...';
+    case 2:
+      return '获取设备失败';
+    case 3:
+      return '正在连接设备...';
+    case 4:
+      return '连接设备失败';
+    case 5:
+      return '正在监听设备';
+    default:
+      return '设备未连接';
+  }
+}
+module.exports = {
+  stateMsg: stateMsg
+};
